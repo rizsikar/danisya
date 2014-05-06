@@ -37,7 +37,8 @@ var map;
 
         var mapOptions = {
           center: centerPos,
-          zoom: 16
+          zoom: 16,
+          scrollwheel: false
 
         };
         map = new google.maps.Map( document.getElementById("map-canvas"), mapOptions );

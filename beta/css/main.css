@@ -11,6 +11,19 @@
 	color:white;
 }
 
+a {
+	color:#6b6b6b;
+}
+
+a:hover {
+	color:#43698c;
+}
+
+.has-tip, .has-tip:hover {
+	border-bottom: none;
+	font-weight: normal;
+}
+
 /* Header */
 
 .top-bar {
@@ -64,9 +77,13 @@
 	color:white;
 }
 
+.photo_heart {
+	margin: 10px 0;
+}
+
 /* Content Here */
 
-.row p {
+.row p, .row span {
 	font-family: 'Forum', cursive;
 	color:#868686;
 }
@@ -75,7 +92,7 @@
 
 .row.intro_dr {margin-top:50px; margin-bottom: 20px;}
 
-.row.intro_dr p{
+.row.intro_dr p, .row.intro_dr span{
 	font-size: 16pt;
 	line-height: 1.4em;
 }
