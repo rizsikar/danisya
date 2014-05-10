@@ -40,7 +40,7 @@ a:hover {
 .top-bar ul li a {
 	color:#6b6b6b;
 	font-family: 'Forum', cursive;
-	font-size:16pt;
+	font-size:14pt;
 
 } 
 
@@ -64,7 +64,7 @@ a:hover {
 /* Top Section */
 
 .main_background_dr {
-	background: url(../img/background_top.png) no-repeat center center;
+	background: url(../img/background_top_home.png) no-repeat center center;
 	background-size: cover;
 	padding-top:310px; padding-bottom:260px
 }
@@ -107,14 +107,14 @@ a:hover {
 /* Photo Panels */
 
 .photo_wall_dr_med {
-	background: url(../img/photo_panels.png) no-repeat center center;
+	background: url(../img/photo_panels_dr.png) no-repeat center center;
 	height: 515px;
 	background-size: cover;
 	border: none;
 }
 
 .photo_wall_dr_sm {
-	background: url(../img/photo_panels_sm.png) no-repeat center center;
+	background: url(../img/photo_panels_dr_sm.png) no-repeat center center;
 	height: 429px;
 	background-size: cover;
 	border: none;
@@ -128,12 +128,19 @@ a:hover {
 /* Getting to know us */
 .hr_profile_dr {width: 150px}
 
-.profile .columns h1 {
+
+
+.profile .columns h1, .map_title_dr h1 {
 	font-family: 'Forum', cursive;
 	text-transform: uppercase;
 	color:#6b6b6b;
 	float: left;
 	margin-right: 10px;
+}
+
+.map_title_dr h1 {
+	clear:both;
+	float: none;
 }
 
 .profile .columns p {
