@@ -11,12 +11,30 @@
 	color:white;
 }
 
+
+
+
+.top-bar-section ul li > a.button {
+	background-color: #43698c;
+	border: none;
+	font-size: 14pt;
+}
+
+.top-bar-section ul li > a.button:hover {
+	background: #818181;
+	color: #fff !important;
+}
+
 a {
 	color:#6b6b6b;
 }
 
 a:hover {
 	color:#43698c;
+}
+
+a.ext_link_dr {
+	border-bottom: 1px dashed #c7c7c7;
 }
 
 .has-tip, .has-tip:hover {
