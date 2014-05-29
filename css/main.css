@@ -14,10 +14,15 @@
 
 
 
-.top-bar-section ul li > a.button {
+.top-bar-section ul li > a.button, ul.off-canvas-list li a.button {
 	background-color: #43698c;
 	border: none;
 	font-size: 14pt;
+}
+
+ul.off-canvas-list li a.button {
+	text-align: left;  
+	font-family: 'Forum', cursive;
 }
 
 .top-bar-section ul li > a.button:hover {
