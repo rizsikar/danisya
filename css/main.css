@@ -12,7 +12,9 @@
 }
 
 
-
+.top-bar-section {
+	margin-right: 10px
+}
 
 .top-bar-section ul li > a.button, ul.off-canvas-list li a.button {
 	background-color: #43698c;
@@ -25,9 +27,17 @@ ul.off-canvas-list li a.button {
 	font-family: 'Forum', cursive;
 }
 
-.top-bar-section ul li > a.button:hover {
+.top-bar-section ul li > a.button:hover, .wish-top:hover {
 	background: #818181;
 	color: #fff !important;
+}
+
+.wish-top {
+	background-color: #43698c;
+	border: none;
+	font-size: 14pt;
+	font-family: 'Forum', cursive;
+	margin-top: 20px;
 }
 
 a {
