@@ -169,7 +169,7 @@ a.ext_link_dr {
 
 
 
-.profile .columns h1, .map_title_dr h1, .reveal-modal h2 {
+.profile .columns h1, .map_title_dr h1, .reveal-modal h2, .glass_names h1 {
 	font-family: 'Forum', cursive;
 	text-transform: uppercase;
 	color:#6b6b6b;
@@ -243,4 +243,83 @@ li.profile_riz{
 ul.off-canvas-list {
 	font-family: 'Forum', cursive;
 	font-size: 16pt;
+}
+
+/* Glass */
+
+.main_background_glass {
+	background: url(../img/glass_background_top.png) no-repeat center center;
+	background-size: cover;
+	padding-top:310px; padding-bottom:300px
+}
+
+.glass_intro {
+	margin: 0px auto;
+	text-align: center;
+}
+
+.main_background_glass h1 {
+	font-size:52pt;
+	margin: 15px auto;
+	color:white;
+	line-height: 1.0em;
+	font-family: 'Playfair Display', serif;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.main_background_glass p {
+	font-family: 'Forum', cursive;
+	font-size: 18pt;
+	color:white;
+	max-width: 480px;
+	line-height: 1em;
+	margin: 0px auto
+}
+
+p.glass_top_p {
+	font-size: 22pt;
+}
+
+cite {
+	font-family: 'Forum', cursive;
+	font-size: 14pt; 
+	color:#6b6b6b;
+	font-style: normal;
+	padding: 20px 0px;
+}
+
+.circles_wrapper {
+	margin-bottom: 40px 
+}
+
+.circle_divider {
+	text-align: center;
+	margin:5px auto;
+	width:70px;
+}
+
+.photo_wall_glass_med {
+	background: url(../img/glass_collage_main.png) no-repeat center center;
+	height: 757px;
+	background-size: cover;
+	border: none;
+}
+
+.glass_names h1 {
+	font-size: 24pt;
+	float: none;
+}
+
+.glass_names p {
+	font-size: 14pt;
+}
+
+.glass_top_hr_dr {
+	width: 400px;
+	text-align:center; margin: 70px auto;
+}
+
+.glass_epilogue {
+	margin: 30px auto;
 }
