@@ -306,6 +306,22 @@ cite {
 	border: none;
 }
 
+.photo_wall_glass_sm1, .photo_wall_glass_sm2 {
+	height: 757px;
+	background-size: cover;
+	border: none;
+}
+
+.photo_wall_glass_sm1 {
+	background: url(../img/glass_collage_sm_1.png) no-repeat center center;
+	margin: 0;
+}
+
+.photo_wall_glass_sm2 {
+	background: url(../img/glass_collage_sm_2.png) no-repeat center center;
+	margin: 0;
+}
+
 .glass_names h1 {
 	font-size: 24pt;
 	float: none;
